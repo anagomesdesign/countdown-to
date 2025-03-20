@@ -39,9 +39,9 @@ const CountdownTimer = () => {
         // If the countdown has expired, show this message:
         <p>See you soon!</p>
       ) : (
-        <p>
+        <h1>
         {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-        </p>
+        </h1>
       )}
     </div>
     );
