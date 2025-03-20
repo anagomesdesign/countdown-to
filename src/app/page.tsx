@@ -3,23 +3,13 @@
 import React from 'react';
 import CountdownTimer from '../components/CountdownTimer/CountdownTimer';
 import './page.css';
+import BgVideo from '@/components/BgVideo/BgVideo';
 
+  export default function Home() {
 
-
-export default function Home() {
-
-  const video = '/assets/bg-video.mp4';
-  
   return (
     <div>
-      <video
-        autoPlay
-        loop
-        muted
-      >
-        <source src={video} type="video/mp4" />
-      </video>
-      
+      <BgVideo/>        
       <CountdownTimer/>    
     </div>  
   );
