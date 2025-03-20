@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Countdown To
+
+A simple web application that allows users to create and track countdowns for important events. Built with Next.js for a fast and seamless user experience.
+
+## Author
+
+This project is developed and maintained by Ana Gomes. Feel free to reach out for feedback or collaboration opportunities. For more about Ana, visit [anagomesdesign.com](https://anagomesdesign.com).
+
 ## Getting Started
 
 First, run the development server:
