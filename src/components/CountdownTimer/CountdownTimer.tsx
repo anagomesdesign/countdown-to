@@ -6,7 +6,7 @@ const CountdownTimer = () => {
   
     function calculateTimeLeft() {
     // The date we're counting down to
-    const countDownDate = new Date("Apr 12 2025 19:00:00 GMT-0300 (BRT)").getTime();
+    const countDownDate = new Date("Jul 29 2026 17:30:00 GMT-0300 (BRT)").getTime();
       
     const now = new Date().getTime();
     const distance = countDownDate - now;
